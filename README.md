@@ -1,5 +1,7 @@
 # devops-capstone-project
 
+![Build Status](https://github.com/Sanjay-gif-sys/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)
+
 DevOps Capstone Project for IBM Skills Network / Coursera — implementing Agile planning, CI/CD, and automation workflows.
 
 
