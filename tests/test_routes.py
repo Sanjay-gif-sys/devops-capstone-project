@@ -37,7 +37,6 @@ class TestAccountService(TestCase):
         init_db(app)
         talisman.force_https = False
 
-
     @classmethod
     def tearDownClass(cls):
         """Runs once before test suite"""
@@ -196,4 +195,3 @@ class TestAccountService(TestCase):
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         # Check for the CORS header
         self.assertEqual(response.headers.get('Access-Control-Allow-Origin'), '*')
-
